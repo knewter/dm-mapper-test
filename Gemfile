@@ -1,4 +1,7 @@
 source :rubygems
 
-gem 'veritas'
+gem 'virtus'
 gem 'dm-mapper', github: 'datamapper/dm-mapper'
+gem 'pry'
+gem 'activerecord'
+gem 'pg'
