@@ -1,0 +1,35 @@
+GIT
+  remote: git://github.com/datamapper/dm-mapper.git
+  revision: 652deda973f0cc548aab996ee9b8c5831c0a4aa4
+  specs:
+    dm-mapper (0.0.0)
+      abstract_type (~> 0.0.2)
+      adamantium (~> 0.0.4)
+      addressable (~> 2.3)
+      descendants_tracker (~> 0.0.1)
+      equalizer (~> 0.0.1)
+      inflecto (~> 0.0.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract_type (0.0.2)
+    adamantium (0.0.5)
+      backports (~> 2.7.0)
+      ice_nine (~> 0.6.0)
+    addressable (2.3.2)
+    backports (2.7.1)
+    descendants_tracker (0.0.1)
+    equalizer (0.0.3)
+      adamantium (~> 0.0.5)
+      backports (~> 2.7.0)
+    ice_nine (0.6.0)
+    inflecto (0.0.2)
+    veritas (0.0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dm-mapper!
+  veritas
